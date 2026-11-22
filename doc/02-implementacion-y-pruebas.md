@@ -36,13 +36,15 @@ El servicio queda expuesto en `http://localhost:8080`. La persistencia simulada 
 ## Capturas de la ejecución de la funcionalidad y pruebas
 
 ### Listado inicial (`GET /habitaciones` — PR-01)
-![Listado inicial](images/01-listar-inicial.png)
+![Listado tras editar y borrar](images/listar.png)
 
-### Creación y modificación (`POST` / `PUT` — PR-02 y PR-04)
-![Listado tras editar y borrar](images/02-listado-editado.png)
+### Crear, editar y eliminar (`POST` / `PUT` — PR-02 y PR-04)
+![Listado tras editar y borrar](images/crear.png)
+![Listado tras editar y borrar](images/editar.png)
+![Listado tras editar y borrar](images/eliminar.png)
 
 ### Manejo global de errores (`404 Not Found` — PR-06)
-![Error 404](images/03-error-404.png)
+![Listado tras editar y borrar](images/error.png)
 
 ### Resultado de la ejecución del plan de pruebas
 

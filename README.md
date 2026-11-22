@@ -25,7 +25,7 @@
 |----------------|----------------------------------------------|
 | **Aplicación** | SHotel (Smart Hotel Domótico)                |
 | **Versión**    | `1.0.0`                                      |
-| **Integrante** | Carlos [Tu Apellido]                         |
+| **Integrante** | Jaime, Jose Miguel y Carlos                       |
 | **Módulo**     | Desarrollo Web en Entorno Servidor (2º DAW)  |
 
 ## Sobre el proyecto
