@@ -25,7 +25,7 @@
 |----------------|----------------------------------------------|
 | **Aplicación** | SHotel (Smart Hotel Domótico)                |
 | **Versión**    | `1.0.0`                                      |
-| **Integrante** | Jaime, Jose Miguel y Carlos                       |
+| **Integrante** | Jaime Castro, Jose Miguel Cenoz y Carlos Ducons                       |
 | **Módulo**     | Desarrollo Web en Entorno Servidor (2º DAW)  |
 
 ## Sobre el proyecto
@@ -50,4 +50,4 @@ Todos los errores se gestionan de forma centralizada devolviendo el código HTTP
 | [1. Contexto y Diseño](doc/01-contexto-y-diseno.md) | Problema real, comparativa, casos de uso, requisitos F/NF, arquitectura, errores y plan de pruebas |
 | [2. Implementación y Pruebas](doc/02-implementacion-y-pruebas.md) | Entorno, versiones, puesta en producción, capturas de ejecución, pruebas y elementos destacables |
 | [3. Manual de Usuario](doc/03-manual-de-usuario.md) | Guía paso a paso para arrancar y usar los formularios y endpoints |
-| [4. Conclusiones, Referencias y Anexos](doc/04-conclusiones-y-anexos.md) | Conclusiones individuales, bibliografía y anexos |
+| [4. Referencias y Anexos](doc/04-referencias-y-anexos.md) | Bibliografía y anexos |
