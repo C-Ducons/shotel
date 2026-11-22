@@ -29,7 +29,7 @@ public class HabitacionController {
     @PostMapping
     @ResponseBody
     @ResponseStatus(HttpStatus.CREATED)
-    public HabitacionResponse createHabitacion(@Valid @RequestBody HabitacionRequest request) {
+    public HabitacionResponse createHabitacion(@Valid HabitacionRequest request) {
         CreateHabitacionCommand comando = habitacionMapper.toCommand(request);
         Habitacion habitacion = createHabitacionService.createHabitacion(comando);
         return habitacionMapper.toResponse(habitacion);
@@ -45,7 +45,7 @@ public class HabitacionController {
 
     @PutMapping("/{id}")
     @ResponseBody
-    public HabitacionResponse editHabitacion(@PathVariable int id, @Valid @RequestBody HabitacionRequest request) {
+    public HabitacionResponse editHabitacion(@PathVariable int id, @Valid HabitacionRequest request) {
         EditHabitacionCommand comando = habitacionMapper.toCommand(id, request);
         Habitacion habitacion = editHabitacionService.update(comando);
         return habitacionMapper.toResponse(habitacion);
