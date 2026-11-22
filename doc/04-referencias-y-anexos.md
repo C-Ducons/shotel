@@ -1,7 +1,4 @@
-# 4. Conclusiones, Referencias y Anexos
-
-## Conclusiones (individuales)
-El desarrollo de **SHotel** me ha permitido consolidar el trabajo con **Spring Boot** aplicando **Clean Architecture** y **Vertical Slicing** de principio a fin. Separar el dominio de la infraestructura exige crear más clases al inicio, pero facilita enormemente localizar errores, añadir validaciones a medida y entender exactamente qué responsabilidad tiene cada paquete. Además, resolver problemas reales como el `Content-Type` entre formularios HTML y `@RequestBody` o gestionar el proyecto con **Git Flow** ha reforzado la parte práctica de cara a proyectos reales.
+# 4. Referencias y Anexos
 
 ## Referencias y bibliografía
 - Documentación oficial de Spring Boot: [https://docs.spring.io/spring-boot/](https://docs.spring.io/spring-boot/)
